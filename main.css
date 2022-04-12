@@ -66,19 +66,25 @@ footer {
     color: white;
     background-color: black;
     text-align: center;
+    
 }
 
 .social-link h4 {
     padding-bottom: 20px;
+    font-size: 2vw;
 
 }
 
 .social-link img {
-    width: 40px;
+    width: 38px;
     padding: 5px;
     margin: 0 20px;
     background-color: white;
     border-radius: 50%;
+}
+
+.copyright-text{
+    font-size: 1.2vw;
 }
 
 /* End of Footer Part */
@@ -86,6 +92,10 @@ footer {
 
 /* Responsive */
 @media screen and(max-width: 800px) {
+    nav{
+        margin: none;
+        padding: 0;
+    }
     .search {
         width: 100%;
     }
