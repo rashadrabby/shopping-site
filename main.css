@@ -26,7 +26,18 @@
     opacity: 100%;
 }
 
+.part-left{
+    height: 100%;
+    width: 25%;
+    top: 35%;
+}
 
+.part-right{
+    height: 100%;
+    width: 25%;
+    margin-left: auto;
+    top: 35%;
+}
 
 
 
