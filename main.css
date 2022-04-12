@@ -1,3 +1,9 @@
+/* header{
+    position: sticky;
+    top: 0;
+} */
+
+/*Header Part */
 .search-group {
     display: flex;
     flex-direction: row;
@@ -31,32 +37,52 @@
 .part-left {
     height: 100%;
     width: 25%;
-    top: 35%;
+    top: 32%;
 }
 
 .part-right {
     height: 100%;
     width: 25%;
     margin-left: auto;
-    top: 35%;
+    top: 32%;
+}
+
+/* End of Header Part */
+
+.product-name {
+    font-size: 3vw;
+}
+
+.product-detail {
+    font-size: 1.5vw;
+
 }
 
 
+/* Footer Part */
 footer {
-    padding: 20px;
+    padding: 30px 20px 15px 20px;
     margin-top: 20%;
     color: white;
     background-color: black;
     text-align: center;
 }
 
+.social-link h4 {
+    padding-bottom: 20px;
+
+}
+
 .social-link img {
     width: 40px;
     padding: 5px;
-    margin:0 20px;
+    margin: 0 20px;
     background-color: white;
     border-radius: 50%;
 }
+
+/* End of Footer Part */
+
 
 /* Responsive */
 @media screen and(max-width: 800px) {
