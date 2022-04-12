@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     margin-left: auto;
+    align-items: center;
 }
 
 .search {
@@ -17,22 +18,23 @@
 }
 
 .search-icon {
-    width: 30px;
+    width: 40px;
     margin: 0 10px;
     opacity: 50%;
+    border: none;
 }
 
 .search-icon:hover {
     opacity: 100%;
 }
 
-.part-left{
+.part-left {
     height: 100%;
     width: 25%;
     top: 35%;
 }
 
-.part-right{
+.part-right {
     height: 100%;
     width: 25%;
     margin-left: auto;
@@ -40,6 +42,21 @@
 }
 
 
+footer {
+    padding: 20px;
+    margin-top: 20%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.social-link img {
+    width: 40px;
+    padding: 5px;
+    margin:0 20px;
+    background-color: white;
+    border-radius: 50%;
+}
 
 /* Responsive */
 @media screen and(max-width: 800px) {
